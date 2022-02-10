@@ -2,6 +2,16 @@ scripts/programació de sistemes
 
 IPC inter Process Comunication
 
+se counican los procesos a traves
+	shared memory
+	pipes
+	signals
+	sockets
+
+Podem fer pipes y fa q es fagi una ordre i despres una altre exemple (grep "10" /etc/passwd | wc -l)
+
+
+
 Python
 
 POO
@@ -11,4 +21,30 @@ propietats-->variables
 mètodes-->funcions
 constructor en py __init__
 __str__ representar objecte string
+
+1) SIGHUP reiniciar dimoni
+2) SIGINT interrumpeix
+9) SIGKILL matar
+10/12) SIGUSR1/2 vacios para poner el usuario
+14) SIGALRM genera una alarma
+15) SIGTERM pedir programa que termine
+18) SIGCONT continuar
+19) SIGSTOP para
+
+
+
+fork genera un proces fill
+proces fill torna fork 0 i el base ens dona  e pid del fill
+
+execv fa que el propi proces es converteixi en u altre proces mantenet el pid
+
+
+
+
+23-dayti:me-server-OnebyOne.py
+23-daytime-client-OnebyOne.py
+
+-s server
+-p port
+
 
